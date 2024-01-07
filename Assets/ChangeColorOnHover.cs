@@ -3,7 +3,7 @@ using UnityEngine;
 public class ChangeColorOnHover : MonoBehaviour
 {
     public Color normalColor = Color.white; // Default color of the object
-    public Color hoverColor = Color.green; // Color when hovered
+    public Color hoverColor = Color.blue; // Color when hovered
     private Renderer objectRenderer;
 
     void Start()
@@ -14,15 +14,29 @@ public class ChangeColorOnHover : MonoBehaviour
         objectRenderer.material.color = normalColor;
     }
 
-    void OnMouseEnter()
+    public void OnHover()
     {
         // When the mouse enters the object
         objectRenderer.material.color = hoverColor; // Change the color on hover
     }
 
-    void OnMouseExit()
+   public void ExitHover()
+    {
+        // When the mouse exits the object
+        objectRenderer.material.color = normalColor; // Revert back to the default color
+    }
+
+
+     void OnMouseEnter()
+    {
+        // When the mouse enters the object
+        objectRenderer.material.color = hoverColor; // Change the color on hover
+    }
+
+   void OnMouseExit()
     {
         // When the mouse exits the object
         objectRenderer.material.color = normalColor; // Revert back to the default color
     }
 }
+

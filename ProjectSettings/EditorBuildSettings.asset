@@ -8,7 +8,15 @@ EditorBuildSettings:
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 1
-    path: Assets/Watsa.unity
+  - enabled: 0
+    path: Assets/exe/Watsa.unity
     guid: 7a6ef5ca88836dc4c9935bdb86836781
-  m_configObjects: {}
+  - enabled: 0
+    path: Assets/exe/NAC.unity
+    guid: cf5330449e9f8d54f82988a1b4eb2850
+  - enabled: 1
+    path: Assets/Watsa Oc.unity
+    guid: 8c06f6fa90423524aa3060c07b8eba98
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 0f255762598c6114f902ea7b609c52e2, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: efa30ea4c97a07a41851483d81c371d9, type: 2}
