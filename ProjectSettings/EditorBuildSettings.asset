@@ -5,6 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: Assets/exe/Watsa.unity
+    guid: 7a6ef5ca88836dc4c9935bdb86836781
+  - enabled: 0
+    path: Assets/exe/NAC.unity
+    guid: cf5330449e9f8d54f82988a1b4eb2850
   - enabled: 1
     path: Assets/Watsa Oc.unity
     guid: 8c06f6fa90423524aa3060c07b8eba98
